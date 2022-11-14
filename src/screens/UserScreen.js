@@ -30,7 +30,7 @@ export default function UserScreen(){
                     <Card icon={icon3} label={"mmHg"} value={currentUser.blood_pressure}/>
                     <Card icon={icon4} label={"rpm"} value={currentUser.respiratory_rate}/>
                 </div>
-                <button onClick={toggle}>{(!updating) ? "MONITORAR" : "PARAR"}</button>
+                <button onClick={toggle}>{(!updating) ? "MONITOR" : "STOP"}</button>
             </div>
             <div className="user-panel2">
                 <input type="number" step={1} min={0} max={20} ref={spin} value={value} onChange={handleOnChange}/>

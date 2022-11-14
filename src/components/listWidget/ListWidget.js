@@ -21,7 +21,7 @@ function Widget({user}){
 
     return (
         <div className="widget-container" style={getStyle()} onClick={() => setCurrentUser(user)}>
-            <h4>{user.id} - {user.name}</h4>
+            <h4>{user.name}</h4>
         </div>
     );
 }
