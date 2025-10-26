@@ -1,6 +1,6 @@
 # Covid Monitor
 
-Covid Monitor is a React-based web application for tracking data related to the COVID-19 pandemic. This repository contains the user interface generated with Create React App and can be connected to real-time data collection and visualization services.
+Covid Monitor is a React-based web application for tracking data related to the COVID-19 pandemic. This repository contains the user interface generated with Create React App and can be connected to real-time data collection and visualization services. This project was bootstrapped with  [Create React App](https://github.com/facebook/create-react-app). To learn more about React, check out the [React documentation](https://reactjs.org/) and the tutorial [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 ## Overview
 - **Primary stack:** React, JavaScript, Create React App.
@@ -22,23 +22,36 @@ npm install
 ```
 
 ## Running the Project
+
+In the project directory, you can run:
+
 ### Development server
 ```bash
 npm start
 ```
-The application becomes available at [http://localhost:3000](http://localhost:3000) with hot reload enabled.
+This command runs the app in development mode. Open [http://localhost:3000](http://localhost:3000) in your browser with hot reload enabled. The page will reload if you make edits. You will also see any lint errors in the console.
 
 ### Tests
 ```bash
 npm test
 ```
-Launches the test runner in interactive watch mode, reporting errors and suggested fixes.
+Launches the test runner in interactive watch mode, reporting errors and suggested fixes. See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### Production build
 ```bash
 npm run build
 ```
-Generates the optimized production bundle in the `build` directory, ready for deployment.
+Generates the optimized production bundle in the `build` directory, ready for deployment. It correctly bundles React in production mode and optimizes the build for the best performance. The build is minified and the filenames include the hashes. Your app is ready to be deployed! See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
 ## Project Structure
 ```
@@ -99,3 +112,5 @@ docker run --rm -p 3000:3000 --env-file .env covid-monitor:latest
 
 ## License
 This project is available under the MIT license. Provide a `LICENSE` file or adapt the text to match your organization's licensing policy.
+
+
