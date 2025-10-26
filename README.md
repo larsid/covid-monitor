@@ -62,8 +62,8 @@ Store secrets and configuration values in a `.env` file following the Create Rea
 
 | Variable | Description | Example |
 |----------|-------------|---------|
-| `BIND_IP` | Source IP address used by outbound HTTP requests from the frontend when it calls the external API. Leave unset unless you need to force traffic through a specific network interface. | `192.168.0.10` |
-| `REACT_APP_API_BASE_URL` | Base URL for the COVID-19 data API. | `https://api.example.com` |
+| `BIND_IP` | Source IP address used by outbound HTTP requests from the frontend when it calls the external API. Useful when the monitor must communicate using a specific virtual interface (for example, the emulator-provided IP address). Leave unset unless you need to force traffic through a specific network interface. | `10.0.0.2` |
+| `REACT_APP_API_URL` | Base URL for the COVID-19 data API consumed by the frontend service layer. | `https://api.example.com` |
 | `REACT_APP_MAPBOX_TOKEN` | Access token for map visualizations, if enabled. | `pk.eyJ1IjoiZXhhbXBsZSIsImEiOiJja2...` |
 
 > **Note:** Never commit `.env` files or other secrets to version control. Use environment-specific configuration during deployment.
