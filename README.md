@@ -23,7 +23,7 @@ npm install
 
 ## Running the Project
 
-In the project directory, you can run:
+In the project directory, you can run the main commands listed above.
 
 ### Development server
 ```bash
