@@ -96,7 +96,7 @@ docker run --rm -p 3000:3000 --env-file .env covid-monitor:latest
 - `-p 3000:3000` publishes the container's port 3000 to the host.
 - `--env-file .env` passes environment variables defined in `.env` to the container. Omit this flag if no additional configuration is required.
 
-> **Tip:** The development server started by `react-scripts start` already listens on all interfaces inside the container. Only define `BIND_IP` if the frontend must originate requests from a particular source IP when calling the API.
+> **Note:** The development server started by `react-scripts start` already listens on all interfaces inside the container.
 
 ## Contribution Guidelines
 1. Fork this repository.
